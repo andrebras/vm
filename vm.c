@@ -116,7 +116,7 @@ int main (int argc, char const *argv[]) {
   
   // print("the answer is:")
   // a = 30 + 2
-  // if true
+  // if false
   //   print(a)
   // end
   
@@ -128,7 +128,7 @@ int main (int argc, char const *argv[]) {
     PUSH_NUMBER, 3, // [30, 2]
     ADD,            // [32]
     SET_LOCAL,   0, // a
-    PUSH_BOOL,   1, // [true]
+    PUSH_BOOL,   0, // [false]
     JUMP_UNLESS, 6,
     PUSH_SELF,
     GET_LOCAL,   0, // [32]
